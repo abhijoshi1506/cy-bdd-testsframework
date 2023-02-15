@@ -18,6 +18,7 @@ Feature: Quotation Manipulation
      Scenario: Retrive Quotation Details
         When User provide valid Identification number and clicks on Retrive Quotation Details
         Then the url should contains the retival page
+        Then the page should display quotation details
        
     Scenario: Logout 
         When User click on Logout button

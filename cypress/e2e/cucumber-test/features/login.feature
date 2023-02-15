@@ -6,7 +6,7 @@ Feature: Login page
         Given A web browser is at the guru99 Insurance login page
     Scenario: Success Login
         When A user enters the username "testuser1@a.com", the password "admin123", and clicks on the login button
-        Then the url will contains the header page
+        Then the url should contains the header page
     
     Scenario: Incorrect Username Login
         When A user provides incorrect credentials, and clicks on the login button
