@@ -78,6 +78,7 @@ In order to run the test, we just have to go into the directory
 3.  To run the test in Headless mode and to view video and allure report ,use the command
 ```
 npm run cypress:execution-allure
+npm run allure:report
 ```
 
 4. To run the test in browser, use the command
